@@ -15,4 +15,4 @@ VOLUME /var/www/html/
 
 VOLUME /etc/apache2/sites-available/
 
-CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
+#CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
