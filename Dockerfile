@@ -1,6 +1,8 @@
 FROM httpd:2.4.23
 MAINTAINER zaharov.prog@gmail.com
 
+RUN apt-get update
+
 RUN apt-get install libapache2-mod-proxy-html
 
 RUN apt-get install libxml2-dev
